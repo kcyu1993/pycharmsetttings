@@ -30,6 +30,14 @@
           <option name="port" value="22" />
         </fileTransfer>
       </webServer>
+      <webServer id="fe4288a4-efa4-48c1-a4a3-83a6661326f5" name="nvidia" url="http://10.19.203.85">
+        <fileTransfer host="10.19.203.85" port="22" rootFolder="/home/chandler/xiaowei/py/" accessType="SFTP">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" shareSSLContext="true" />
+          </advancedOptions>
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
     </option>
   </component>
 </application>
